@@ -5,7 +5,7 @@ FROM nginx:latest
 COPY . /usr/share/nginx/html
 
 # Expose port 99
-EXPOSE 99
+EXPOSE 80
 
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
